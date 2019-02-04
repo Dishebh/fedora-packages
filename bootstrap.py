@@ -75,7 +75,7 @@ def link_external_libs():
                     cmd = template.format(libdir=libdir, ext=ext, lib=lib,
                                           venv=os.environ['VIRTUAL_ENV'],
                                           location=location)
-                    print cmd
+                    print(cmd)
                     run(cmd)
 
 
